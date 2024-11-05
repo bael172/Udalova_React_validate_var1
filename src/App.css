@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+/*--------------------------------------------*/
+
+.container_center{
+  position:static; /*default value*/
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-content:center;
+  text-align: left;
+  border: 5px purple solid;
+}
+.container_center * {
+  width:50%;
+}
+
+.FormGroup * {
+  width:100%;
+}
+
+.CheckBox:first-child{
+  width:5px;
+}
+.CheckBox:last-child{
+  width:100%;
+}
